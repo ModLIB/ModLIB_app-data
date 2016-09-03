@@ -1,3 +1,10 @@
+ScreenType.MOB_EFFECTS<br>
+ScreenType.INVENTORY<br>
+ScreenType.CHAT<br>
+ScreenType.OPTIONS<br>
+ScreenType.PAUSE<br>
+ScreenType.START<br>
+Chat.ALL_MESSAGES<br>
 function onMove(x,y,z)<br>
 function onJump()<br>
 function modTick()<br>
