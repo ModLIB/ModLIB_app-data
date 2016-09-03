@@ -1,0 +1,1 @@
+ModLIB is an addon ModLoader scripts.js from special folder you can find the folder in the directory "sdcard/games/io.isaac300/mods" devloped by <a href="http://m.twitter.com/lsaac300" >ISAAC300</a>.
