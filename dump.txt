@@ -1,3 +1,11 @@
+function onMove(x,y,z)<br>
+function onJump()<br>
+function modTick()<br>
+function destroyBlock(x,y,z,id)<br>
+function useItem(x,y,z,id)<br>
+function attackHook(a,v)<br>
+function screenChangeHook(ScreenType)<br>
+function leaveGame()<br>
 function ModLIB.isFullVRMode()<br>
 function ModLIB.isOnlineClient()<br>
 function Screen.getTouchX()<br>
