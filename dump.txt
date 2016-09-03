@@ -31,4 +31,8 @@ function Item.setGlint(id,bool)<br>
 function Item.setFuel(id,bool,time)<br>
 function Player.setDimension(dimension)<br>
 function Player.isInWater()<br>
+function Player.isInLava()<br>
+function Player.isSleeping()<br>
+function Player.isInvisible()<br>
+function getCarriedItem()<br>
 function Screen.drawText(scr,str,x,y)<br>
