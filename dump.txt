@@ -1,20 +1,16 @@
-ScreenType.MOB_EFFECTS<br>
-ScreenType.INVENTORY<br>
-ScreenType.CHAT<br>
-ScreenType.OPTIONS<br>
-ScreenType.PAUSE<br>
-ScreenType.START<br>
-Chat.ALL_MESSAGES<br>
-function onMove(x,y,z)<br>
-function onJump()<br>
-function modTick()<br>
-function destroyBlock(x,y,z,id)<br>
-function useItem(x,y,z,id)<br>
-function attackHook(a,v)<br>
-function screenChangeHook(ScreenType)<br>
-function leaveGame()<br>
-function ModLIB.isFullVRMode()<br>
-function ModLIB.isOnlineClient()<br>
+Events/Hooks<br>
+<br>
+function onBackPressed(){}<br>
+function leaveGame(){}<br>
+function useItem(x,y,z,id){}<br>
+function destroyBlock(x,y,z,id){}<br>
+function onJump(){}<br>
+function onMove(x,y,z){}<br>
+function screenChangeHook(screentype){}<br>
+function chatHook(playername,message){}<br>
+
+Methods/functions<br>
+<br>
 function Screen.getTouchX()<br>
 function Screen.getTouchY()<br>
 function ModLIB.showPopupNotice(arg1,arg2)<br>
@@ -28,6 +24,7 @@ function include(script)<br>
 function ModLIB.getFuncSymbol(symbol)<br>
 function ModLIB.setFile(path,content)<br>
 function ModLIB.getFileContent(path)<br>
+function ModLIB.deleteFile(path)<br>
 function ModLIB.existsFile(path)<br>
 function ModLIB.openScreen(scr)<br>
 function ModLIB.openOptionsScreen(arg1)<br>
@@ -45,9 +42,55 @@ function Item.setAttackDamage(id,dmg)<br>
 function Item.setGlint(id,bool)<br>
 function Item.setFuel(id,bool,time)<br>
 function Player.setDimension(dimension)<br>
+function Screen.drawText(scr,str,x,y)<br>
+function ModLIB.setBobView(bool)<br>
+function ModLIB.setGlDebug(bool)<br>
+function ModLIB.setHideGui(bool)<br>
+function ModLIB.setTexelAA(bool)<br>
+function ModLIB.setAutoJump(bool)<br>
+function ModLIB.setFlySpeed(int)<br>
+function ModLIB.setGuiScale(int)<br>
+function ModLIB.setIsFlying(bool)<br>
+function ModLIB.setUsername(str)<br>
+function ModLIB.setDpadScale(int)<br>
+function ModLIB.setVRTapTurn(bool)<br>
+function ModLIB.setDifficulty(int)<br>
+function ModLIB.setFancySkies(bool)<br>
+function ModLIB.setFullscreen(bool)<br>
+function ModLIB._setDifficulty(int)<br>
+function ModLIB.setCameraSpeed(int)<br>
+function ModLIB.setFieldOfView(int)<br>
+function ModLIB.setFixedCamera(bool)<br>
+function ModLIB.setSensitivity(int)<br>
+function ModLIB.setStutterTurn(bool)<br>
+function ModLIB.setVRHudDrifts(bool)<br>
+function ModLIB.setLanguage(str)<br>
+function ModLIB.setGamma(int)<br>
+function ModLIB.joinRealmsGame(char,int)<br>
+function Mod.write(createdby,poweredby,version,description,website)<br>
+function Player.setGameMode(int)<br>
+function Player.setSprinting(bool)<br>
+function ModLIB.isFullVRMode()<br>
+function ModLIB.isOnlineClient()<br>
+function Player.getItemInHand()<br>
 function Player.isInWater()<br>
 function Player.isInLava()<br>
 function Player.isSleeping()<br>
 function Player.isInvisible()<br>
-function getCarriedItem()<br>
-function Screen.drawText(scr,str,x,y)<br>
+function Player.isOnFire()<br>
+function Player.isInWall()<br>
+function Player.isSprinting()<br>
+function ModLIB.getGuiScale()<br>
+function ModLIB.getGamma()<br>
+function ModLIB.getDestroyVibration()<br>
+function ModLIB.getServerVisible()<br>
+function ModLIB.getXboxLiveVisible()<br>
+function ModLIB.getDifficulty()<br>
+function ModLIB.getLanguage()<br>
+function ModLIB.getUsername()<br>
+function ModLIB.getFancyGraphics()<br>
+function ModLIB.isLeftHanded()<br>
+function ModLIB.getHideGui()<br>
+function Mod.getDetails()<br>
+function Screen.getWidth()<br>
+function Screen.getHeight()<br>
